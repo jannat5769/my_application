@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blood_cell"
+    tools:context=".FindBlood">
+
+    <TableRow
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="80dp"
+        >
+        <Button
+            android:id="@+id/AposId"
+            android:text="A+"
+            android:textSize="30dp"
+            />
+        <Button
+            android:id="@+id/AnegId"
+            android:text="A-"
+            android:textSize="30dp"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="80dp"
+        >
+        <Button
+            android:id="@+id/BposId"
+            android:text="B+"
+            android:textSize="30dp"
+            />
+        <Button
+            android:id="@+id/BnegId"
+            android:text="B-"
+            android:textSize="30dp"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="80dp"
+        >
+        <Button
+            android:id="@+id/OposId"
+            android:text="O+"
+            android:textSize="30dp"
+            />
+        <Button
+            android:id="@+id/OnegId"
+            android:text="O-"
+            android:textSize="30dp"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="80dp"
+        >
+        <Button
+            android:id="@+id/ABposId"
+            android:text="AB+"
+            android:textSize="30dp"
+            />
+        <Button
+            android:id="@+id/ABnegId"
+            android:text="AB-"
+            android:textSize="30dp"
+            />
+
+    </TableRow>
+
+
+
+</TableLayout>

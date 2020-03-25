@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OnegativeActivity">
+
+    <TableRow
+        android:layout_marginTop="25dp"
+        android:background="@color/colorInfo_1"
+        >
+        <TextView
+            android:text="Donor:"
+            android:textSize="27dp"
+            android:textStyle="bold"
+
+            />
+        <TextView
+            android:text="1"
+            android:textSize="27dp"
+
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:background="@color/colorButton"
+        >
+        <TextView
+            android:text="Name:  "
+            android:textSize="27dp"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:text="Zahin Hassan"
+            android:textSize="27dp"
+
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:background="@color/colorInfo_1"
+        >
+        <TextView
+            android:text="Phone:  "
+            android:textSize="27dp"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:text="019********"
+            android:textSize="27dp"
+
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:background="@color/colorButton"
+        >
+        <TextView
+            android:text="Age: "
+            android:textSize="27dp"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:text="38"
+            android:textSize="27dp"
+
+            />
+
+    </TableRow>
+
+</TableLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/red_blood"
+    tools:context=".AboutBlood">
+
+    <ImageView
+        android:id="@+id/bloodChartId"
+        android:layout_marginTop="160dp"
+        android:layout_width="wrap_content"
+        android:layout_height="280dp"
+        android:src="@drawable/blood_chart"
+
+        />
+
+
+    <ImageView
+        android:id="@+id/bloodRulesId"
+        android:layout_marginTop="120dp"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:src="@drawable/blood_donation_rules"
+
+        />
+
+    <ImageView
+        android:id="@+id/bloodTypeId"
+        android:layout_marginTop="145dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/blood_type"
+
+        />
+
+
+
+
+
+
+
+</FrameLayout>
